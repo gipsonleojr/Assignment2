@@ -1,107 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-        p {
-          color: rgb(128, 34, 0);
-        }
-</style>
+    <!-- This Style is added to add color to paragraph, header and background
+    -->
+    <link rel="stylesheet" href="leostyle.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blast off Count Down.</title>
-    <script>
-        // The Script tags lets the browser know we are in JavaScript and not HTML
-        function StartTheCountdown()
-        {
-            // Purpose of this function is to start the countdown
-            // and control the countdown also
-
-            // to input variables
-            // used to display to the user.
-            var countdown = 10;
-            // used to keep track of time for the countdown
-            // 1000 = 1 second because we are using milliseconds
-            var timeout = 10000;
-            // use this set time out function for the countdown
-            setTimeout(() =>  {
-                document.getElementById("CountdownDisplay").innerHTML = "Blast Off!!!";
-                countdown = countdown - 1;
-            }, timeout)
-            timeout = timeout - 1000;
-            // This process will be completed 10 times
-            setTimeout(() =>  {
-                document.getElementById("CountdownDisplay").innerHTML = countdown;
-                countdown = countdown - 1;
-            }, timeout)
-            timeout = timeout - 1000;
-            // This process will be completed 10 times
-            setTimeout(() =>  {
-                document.getElementById("CountdownDisplay").innerHTML = countdown;
-                countdown = countdown - 1;
-            }, timeout)
-            timeout = timeout - 1000;
-            // This process will be completed 10 times
-            setTimeout(() =>  {
-                document.getElementById("CountdownDisplay").innerHTML = countdown;
-                countdown = countdown - 1;
-            }, timeout)
-            timeout = timeout - 1000;
-            // This process will be completed 10 times
-            setTimeout(() =>  {
-                document.getElementById("CountdownDisplay").innerHTML = countdown;
-                countdown = countdown - 1;
-            }, timeout)
-            timeout = timeout - 1000;
-            // This process will be completed 10 times
-            setTimeout(() =>  {
-                document.getElementById("CountdownDisplay").innerHTML = countdown;
-                countdown = countdown - 1;
-            }, timeout)
-            timeout = timeout - 1000;
-            // This process will be completed 10 times
-            setTimeout(() =>  {
-                document.getElementById("CountdownDisplay").innerHTML = countdown;
-                countdown = countdown - 1;
-            }, timeout)
-            timeout = timeout - 1000;
-            // This process will be completed 10 times
-            setTimeout(() =>  {
-                document.getElementById("CountdownDisplay").innerHTML = countdown;
-                countdown = countdown - 1;
-            }, timeout)
-            timeout = timeout - 1000;
-            // This process will be completed 10 times
-            setTimeout(() =>  {
-                document.getElementById("CountdownDisplay").innerHTML = countdown;
-                countdown = countdown - 1;
-            }, timeout)
-            timeout = timeout - 1000;
-            // This process will be completed 10 times
-            setTimeout(() =>  {
-                document.getElementById("CountdownDisplay").innerHTML = countdown;
-                countdown = countdown - 1;
-            }, timeout)
-            timeout = timeout - 1000;
-            // This process will be completed 10 times
-            setTimeout(() =>  {
-                document.getElementById("CountdownDisplay").innerHTML = countdown;
-                countdown = countdown - 1;
-            }, timeout)
-            timeout = timeout - 1000;
-            // This process will be completed 10 times
-            setTimeout(() =>  {
-                document.getElementById("CountdownDisplay").innerHTML = countdown;
-                countdown = countdown - 1;
-            }, timeout)
-            timeout = timeout - 1000;
-
-
-        }
-
-    </script>
+    <script src="blastoff.js"></script>
 </head>
 <body>
+    <!-- This will add an image for the page
+    -->
     <img align ="Left" src = "UAT_Space.jpg"
  <br>
  <br>
